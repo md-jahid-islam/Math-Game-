@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f4f6;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+#question {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#answerInput {
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+#submitAnswer {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#result {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
